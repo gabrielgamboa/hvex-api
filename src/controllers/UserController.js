@@ -14,7 +14,7 @@ class UserController {
             name,
             username,
             password,
-            last_acess: null
+            last_access: null
         });
     
         await user.save();
@@ -27,7 +27,7 @@ class UserController {
 
         if (!user) return response.status(404).json({error: "User not found."});
 
-        user.last_acess = new Date();
+        user.last_access = new Date();
         await user.save();
 
         return response.json(user);
@@ -45,7 +45,7 @@ class UserController {
         if (username) user.username = username;
         if (password) user.password = password;
 
-        user.last_acess = new Date();
+        user.last_access = new Date();
 
         await user.save();
         return response.json(user);

@@ -4,7 +4,7 @@ const schema = mongoose.Schema({
 	name: String,
 	username: String,
 	password: String,
-	last_acess: Date
+	last_access: Date
 }, {
 	versionKey: false
 });
