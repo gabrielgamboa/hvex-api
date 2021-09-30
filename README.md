@@ -12,7 +12,7 @@
 
 ```bash
 # Clone o repositório em seu computador
-$ git clone <https://github.com/gabrielgamboa/hvex-api.git>
+$ git clone https://github.com/gabrielgamboa/hvex-api.git
 
 # Entre na pasta do projeto pelo seu terminal
 $ cd hvex-api
