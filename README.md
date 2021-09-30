@@ -31,6 +31,6 @@ $ npm run dev
 ## Após ter completado a instalação do MongoDB, crie uma pasta "data" na raíz do sistema, e dentro dela uma pasta chamada "db"
 $ C:\data\db
 
-## Para finalizar, vá ao diretório de instalação do Mongo e rode o arquivo "Mongod" para que seja executado o servidor do banco localmente
+## Para finalizar, vá ao diretório de instalação do Mongo e rode o arquivo "mongod" para que seja executado o servidor do banco localmente
 $ C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe
 ```
