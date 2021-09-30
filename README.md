@@ -21,7 +21,7 @@ $ cd hvex-api
 $ npm install
 
 # Rode a aplicação com o script abaixo
-$ npm run dev
+$ npm run prod
 
 # O servidor será iniciado na porta 3333, sendo acessível através do endereço http://localhost:3333
 ```
