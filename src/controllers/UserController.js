@@ -7,7 +7,7 @@ class UserController {
         const userAlreadyExists = await User.findOne({username});
 
         if (userAlreadyExists) {
-            return response.status(403).json({erro: "User already exists"});
+            return response.status(403).json({error: "User already exists"});
         }
     
         const user = new User({
